@@ -1,0 +1,21 @@
+$(function(){
+	/*导航栏部分*/
+	$(".nav_more").mouseenter(function(){
+		$(this).children("ul").show();
+	})
+	$(".nav_more").mouseleave(function(){
+		$(this).children("ul").hide();
+	})
+	$(".nav_span1").mouseenter(function(){
+		$(this).children("ul").show();
+	})
+	$(".nav_span1").mouseleave(function(){
+		$(this).children("ul").hide();
+	})
+	$(".nav_span2").mouseenter(function(){
+		$(this).children("ul").show();
+	})
+	$(".nav_span2").mouseleave(function(){
+		$(this).children("ul").hide();
+	})
+})

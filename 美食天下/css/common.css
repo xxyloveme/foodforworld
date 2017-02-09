@@ -1,0 +1,137 @@
+/*   默认样式重置  */
+body,h1,h2,h3,p,ul,li,input{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	display: block;
+}
+
+/* 导航栏部分 */
+.nav{
+	height: 40px;
+	background: #333;
+	z-index: 6;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.nav ul{
+	line-height: 40px;
+	text-align: center;	
+}
+.nav .nav_left{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.nav ul li{
+	float: left;
+	height: 40px;
+}
+.nav ul li a{
+	color: #ccc;
+	font-size: 14px;
+	padding: 0 10px;
+	display: block;
+}
+.nav .nav_left li a:hover,.change:hover{
+	background: black;
+}
+.nav ul li a i{
+	display: block;
+	float: left;
+	width: 55px;
+	height: 14px;
+	margin: 13px 10px 0 0;
+	background: url(http://static.meishichina.com/v6/img/lib/top-bar55.png) no-repeat
+} 
+.nav .nav_more{
+	width: 20px;
+	position: relative;
+	
+}
+.nav .nav_left li span{
+	display: block;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 4px dashed transparent;
+    border-top: 6px solid #ccc;
+    margin: 18px auto 0;
+}
+.nav .nav_more ul{
+	width: 66px;
+	position: relative;
+	top:10px;
+	left: -36px;
+	display: none;
+}
+.nav .nav_more ul li{
+	float: none;
+	background: #333333;
+}
+.nav .nav_right{
+	float: right;	
+}
+.nav .nav_right img{
+	display: block;
+	margin: 4px auto 2px;
+}
+.nav .nav_right .nav_span{
+	height: 40px;
+}
+.nav .nav_right .nav_span a{
+	width: 60px;
+	height: 40px;
+	display: inline-block;
+	line-height:14px;
+	padding: 0;
+	font-size: 12px;
+	color: white;
+}
+.nav .nav_right .nav_span1,.nav_span2{
+	position: relative;
+	width: 60px;
+}
+.nav .nav_right .nav_login,.nav_span2 ul{
+	position: relative;
+	display: none;
+	top:-10px;
+}
+.nav .nav_right .nav_login li,.nav_span2 ul li{
+	float: none;
+	height: 40px;
+}
+.nav_span2{
+	background: #59c3d1;
+}
+.nav_span3{
+	background: #ffa859;
+}
+.nav_span4{
+	background: #fe5761;
+}
+.nav_login1{
+	background: #585757;
+}
+.nav_login2{
+	background: #a9a9a9;
+}
+.fabu1{
+	background: #8ecdd8;
+}
+.fabu2{
+	background: #a6dfea;
+}
+.fabu3{
+	background: #adecf8;
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/cookbook.css" />
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="js/common.js" ></script>
+		<script type="text/javascript" src="js/cookbook.js" ></script>
+	</head>
+	<body>
+		<!--  导航栏  -->
+		<div id="nav" class="nav">
+			<ul class="nav_left">
+				<li><a href="index.html"><i></i>首页</a></li>
+				<li><a href="cookbook.html">菜谱</a></li>
+				<li><a href="#">食材</a></li>
+				<li><a href="#">珍选</a></li>
+				<li><a href="#">健康</a></li>
+				<li><a href="#">专题</a></li>
+				<li><a href="#">社区</a></li>
+				<li><a href="#">话题</a></li>
+				<li><a href="#">活动</a></li>
+				<li><a href="#">搜索</a></li>
+				<li class="nav_more">
+					<span></span>
+					<ul>
+						<li><a href="#">烘焙</a></li>
+						<li><a href="#">妈妈派</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="nav_right">
+				<ul>
+					<li class="change"><a href="register.html">注册</a></li>
+					<li class="change"><a href="login.html">登录</a></li>
+					<li class="nav_span nav_span1 change">
+						<a href="#">
+							<img src="img/nir1.png"  width="18px" height="18px"/>QQ登录
+						</a>
+						<ul class="nav_login">
+							<li class="nav_login1"><a href="#"><img src="img/nir2.png" width="18px" height="18px"/>微博登录</a></li>
+							<li class="nav_login2"><a href="#"><img src="img/nir3.png"  width="18px" height="18px"/>微信登录</a></li>
+						</ul>
+					</li>
+					<li class="nav_span nav_span2">
+						<a href="#">
+							<img src="img/nr1.png"  width="18px" height="18px"/>
+							发布
+						</a>
+						<ul>
+							<li class="fabu1"><a href="#">发菜谱</a></li>
+							<li class="fabu2"><a href="#">发话题</a></li>
+							<li class="fabu3"><a href="#">发日志</a></li>
+						</ul>
+					</li>
+					<li class="nav_span nav_span3">
+						<a href="#">
+							<img src="img/nr2.png"  width="18px" height="18px"/>
+							签到有礼
+						</a>
+					</li>
+					<li class="nav_span nav_span4">
+						<a href="#">
+							<img src="img/nr3.png"  width="18px" height="18px"/>
+							客户端
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--   logo部分  -->
+		<div class="logo">
+			<div class="logo_left">
+				<a href="#"><span>菜谱</span></a>
+				
+			</div>
+			<div class="logo_right">
+				<input type="button" id="btn" class="search" value="搜索" />
+				<input type="text" class="text"/>
+				
+			</div>
+			<div class="logo_center">
+				<ul>
+					<li><a href="#" class="index">菜谱首页</a></li>
+					<li><a href="#">分类</a></li>
+					<li><a href="#">菜单</a></li>
+					<li><a href="#">排行</a>|</li> 
+					<li><a href="#">食材</a></li>
+					<li><a href="#">食疗食补</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="top">
+			<!--  菜单栏   -->	
+			<ul class="menu">
+				<li><a href="javascript:void(0)" class="on6">首页</a></li>
+				<li><a href="javascript:void(0)">热菜</a></li>
+				<li><a href="javascript:void(0)">凉菜</a></li>
+				<li><a href="javascript:void(0)">汤羹</a></li>
+				<li><a href="javascript:void(0)">主食</a></li>
+				<li><a href="javascript:void(0)">小吃</a></li>
+				<li><a href="javascript:void(0)">西餐</a></li>
+				<li><a href="javascript:void(0)">烘焙</a></li>
+				<li><a href="javascript:void(0)">饮品</a></li>
+				<li><a href="javascript:void(0)">零食</a></li>
+				<li><a href="javascript:void(0)">炮酱腌菜</a></li>
+				<li><a href="javascript:void(0)">自制食材</a></li>
+				<li><a href="javascript:void(0)">最新菜谱</a></li>
+				<li class="all"><a href="javascript:void(0)">浏览全部菜谱</a><span class="xuanz">></span>
+					<div class="all-menu">
+				<ul>
+					<li><p>主食/小吃/饮品</p></li>
+					<li><a href="javascript:void(0)">米饭</a></li>
+					<li><a href="javascript:void(0)">炒饭</a></li>
+					<li><a href="javascript:void(0)">包子</a></li>
+					<li><a href="javascript:void(0)">饺子</a></li>
+					<li><a href="javascript:void(0)">馒头花卷</a></li>
+					<li><a href="javascript:void(0)">面条</a></li>
+					<li><a href="javascript:void(0)">饼</a></li>
+					<li><a href="javascript:void(0)">粥</a></li>
+					<li><a href="javascript:void(0)">冰品</a></li>
+				</ul>
+				<ul>
+					<li><p>场景/饮食方式</p></li>
+					<li><a href="javascript:void(0)">早餐</a></li>
+					<li><a href="javascript:void(0)">快手菜</a></li>
+					<li><a href="javascript:void(0)">下午茶</a></li>
+					<li><a href="javascript:void(0)">中式宴请</a></li>
+					<li><a href="javascript:void(0)">西式宴请</a></li>
+					<li><a href="javascript:void(0)">夏季食谱</a></li>
+					<li><a href="javascript:void(0)">高颜值</a></li>
+					<li><a href="javascript:void(0)">宿舍时代</a></li>
+					<li><a href="javascript:void(0)">二人世界</a></li>
+					<li><a href="javascript:void(0)">儿童</a></li>
+					<li><a href="javascript:void(0)">孕妇</a></li>
+					<li><a href="javascript:void(0)">产妇</a></li>
+				</ul>
+				<ul>
+					<li><p>中西菜系</p></li>
+					<li><a href="javascript:void(0)">川菜</a></li>
+					<li><a href="javascript:void(0)">鲁菜</a></li>
+					<li><a href="javascript:void(0)">闽菜</a></li>
+					<li><a href="javascript:void(0)">粤菜</a></li>
+					<li><a href="javascript:void(0)">湘菜</a></li>
+					<li><a href="javascript:void(0)">日料</a></li>
+					<li><a href="javascript:void(0)">韩餐</a></li>
+					<li><a href="javascript:void(0)">泰国菜</a></li>
+					<li><a href="javascript:void(0)">法国菜</a></li>
+				</ul>
+				<ul>
+					<li><p>烘焙</p></li>
+					<li><a href="javascript:void(0)">面包</a></li>
+					<li><a href="javascript:void(0)">蛋糕</a></li>
+					<li><a href="javascript:void(0)">派塔</a></li>
+					<li><a href="javascript:void(0)">吐司</a></li>
+					<li><a href="javascript:void(0)">披萨</a></li>
+					<li><a href="javascript:void(0)">慕斯</a></li>
+					<li><a href="javascript:void(0)">饼干</a></li>
+					<li><a href="javascript:void(0)">曲奇</a></li>
+					<li><a href="javascript:void(0)">布丁</a></li>
+				</ul>
+				<ul>
+					<li><p>常见菜式</p></li>
+					<li><a href="javascript:void(0)">热菜</a></li>
+					<li><a href="javascript:void(0)">凉菜</a></li>
+					<li><a href="javascript:void(0)">主食</a></li>
+					<li><a href="javascript:void(0)">小吃</a></li>
+					<li><a href="javascript:void(0)">汤羹</a></li>
+					<li><a href="javascript:void(0)">烘焙</a></li>
+					<li><a href="javascript:void(0)">饮品</a></li>
+					<li><a href="javascript:void(0)">家常菜</a></li>
+					<li><a href="javascript:void(0)">开胃菜</a></li>
+				</ul>
+				<ul>
+					<li><p>所有菜谱</p></li>
+					<li><a href="javascript:void(0)">最新发布</a></li>
+					<li><a href="javascript:void(0)">最新推荐</a></li>
+					<li><a href="javascript:void(0)">最热菜谱</a></li>
+					<li><a href="javascript:void(0)" class="on7">家常菜谱</a></li>
+				</ul>
+				<ul class="last-ul">
+					<li><p>食疗食补</p></li>
+					<li><a href="javascript:void(0)">补钙</a></li>
+					<li><a href="javascript:void(0)">贫血</a></li>
+					<li><a href="javascript:void(0)">免疫力</a></li>
+					<li><a href="javascript:void(0)">养胃</a></li>
+					<li><a href="javascript:void(0)">对抗雾霾</a></li>
+					<li><a href="javascript:void(0)">润肺止咳</a></li>
+					<li><a href="javascript:void(0)">滋阴</a></li>
+					<li><a href="javascript:void(0)">壮阳</a></li>
+					<li><a href="javascript:void(0)">失眠</a></li>
+					<li><a href="javascript:void(0)">养颜</a></li>
+					<li><a href="javascript:void(0)">排毒</a></li>
+					<li><a href="javascript:void(0)">便秘</a></li>
+					<li><a href="javascript:void(0)">瘦身</a></li>
+					<li><a href="javascript:void(0)">丰胸</a></li>
+					<li><a href="javascript:void(0)">痛经</a></li>
+					<li><a href="javascript:void(0)">月经不调</a></li>
+				</ul>
+			</div>
+				</li>	
+			</ul>
+			<img src="img/single.png" class="pic3" />
+			
+			<!--轮播图-->
+			<div id="pics">
+				<ul class="pics">
+					<li><a href="javascript:void(0)"><img src="img/new17.jpg" alt="" /><span class="spans">炒菜 带辣<span>53篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/hot14.jpg" alt="" /><span class="spans">【最有创意的宴客菜】<span>538篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/new05.jpg" alt="" /><span class="spans">酥烂味厚，滋味焖菜<span>50篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/73.jpg" alt="" /><span class="spans">甜品糖水<span>70篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/new18.jpg" alt="" /><span class="spans">各种零失败烘焙菜谱<span>30篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/hot19.jpg" alt="" /><span class="spans">最爱香辛扑鼻咖喱味<span>55篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head8.jpg" alt="" /><span class="spans">白露秋分夜，一夜冷一夜<span>35篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head2.jpg" alt="" /><span class="spans">秋葵--lady's finger<span>43篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head4.jpg" alt="" /><span class="spans">开学季！适合孩子吃的补脑菜<span>26篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head7.jpg" alt="" /><span class="spans">这样吃芹菜，以前的做法都弱爆了<span>30篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head5.jpg" alt="" /><span class="spans">营养早餐<span>50篇菜谱</span></span></a></li>
+					<li><a href="javascript:void(0)"><img src="img/head6.jpg" alt="" /><span class="spans">韩式特色美食<span>28篇菜谱</span></span></a></li>
+			</ul>
+			</div>
+			<!-- 轮播点击按钮  -->
+			<span id="left"><</span>
+			<span id="right">></span>
+			
+			<!-- 小图标 -->
+			<ul class="icons">
+				<li><a href="javascript:void(0)"><img src="img/r01.jpg" alt="" /><span>一周最热</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r02.jpg" alt="" /><span>人气菜肴</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r03.jpg" alt="" /><span>夏季食谱</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r04.jpg" alt="" /><span>高颜值</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r05.jpg" alt="" /><span>快手菜</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r06.jpg" alt="" /><span>早餐</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r07.jpg" alt="" /><span>家常菜谱</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r08.jpg" alt="" /><span>烘焙大全</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r09.jpg" alt="" /><span>亲子专区</span></a></li>
+				<li><a href="javascript:void(0)"><img src="img/r10.jpg" alt="" /><span>所有菜谱</span></a></li>
+			</ul>
+		</div>
+		<!--  主要内容块 tab 切换 -->
+		<div class="food" >
+				<div class="food_head" >
+					<a href="javascript:void(0)" class="on2">最新推荐</a>
+					<a href="javascript:void(0)">最新发布</a>
+					<a href="javascript:void(0)">热菜</a>
+					<a href="javascript:void(0)">凉菜</a>
+					<a href="javascript:void(0)">汤羹</a>
+					<a href="javascript:void(0)">主食</a>
+					<a href="javascript:void(0)">小吃</a>
+					<a href="javascript:void(0)">西餐</a>
+					<a href="javascript:void(0)">烘焙</a>
+					<a href="javascript:void(0)">自制食材</a>
+					<ul>
+						<li><a href="#">全部分类</a></li>
+					</ul>
+				</div>
+				<div class="new_tj" >
+					<ul class="uls first">
+						<li><a href="#"><img src="img/new01.jpg" alt="" /></a><p>咖啡冰皮月饼</p><span>西山豆角</span></li>
+						<li><a href="#"><img src="img/new02.jpg" alt="" /></a><p>蒜苔炒腊肉</p><span>夏家私享菜</span></li>
+						<li><a href="#"><img src="img/new03.jpg" alt="" /></a><p>中国版玫瑰花水信玄饼</p><span>他的国_ZyQshC</span></li>
+						<li><a href="#"><img src="img/new04.jpg" alt="" /></a><p>香浓诱惑巧克力乳酪月饼</p><span>烘焙123</span></li>
+						<li><a href="#"><img src="img/new05.jpg" alt="" /></a><p>酒糟炖猪蹄</p><span>笑春天下524335751</span></li>
+						<li><a href="#"><img src="img/new06.jpg" alt="" /></a><p>黑米大麦小麦粥</p><span>rosejyy2000</span></li>
+						<li><a href="#"><img src="img/new07.jpg" alt="" /></a><p>巴黎夏拉克</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/new08.jpg" alt="" /></a><p>桃胶黑加仑牛奶西米露</p><span>味谷的养生厨房</span></li>
+						<li><a href="#"><img src="img/new09.jpg" alt="" /></a><p>五彩炒饭</p><span>~梅杰</span></li>
+						<li><a href="#"><img src="img/new10.jpg" alt="" /></a><p>油泼翡翠面</p><span>sunshinewinnie</span></li>
+						<li><a href="#"><img src="img/new11.jpg" alt="" /></a><p>广式蔓越莓豆沙月饼</p><span>飞燕飘舞</span></li>
+						<li><a href="#"><img src="img/new12.jpg" alt="" /></a><p>豆腐煮鸡翅根</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new13.jpg" alt="" /></a><p>长瓜煮螃蟹</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new14.jpg" alt="" /></a><p>胡萝卜木耳炒鸡蛋</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/new15.jpg" alt="" /></a><p>广式莲蓉蛋黄月饼</p><span>食色</span></li>
+						<li><a href="#"><img src="img/new16.jpg" alt="" /></a><p>香菇肉末糯米烧卖</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new17.jpg" alt="" /></a><p>彩椒牛肉</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/new18.jpg" alt="" /></a><p>蛋黄酥（黄油版）</p><span>老方小雨</span></li>
+						<li><a href="#"><img src="img/new19.jpg" alt="" /></a><p>酥脆煎饺</p><span>倩如意</span></li>
+						<li><a href="#"><img src="img/new20.jpg" alt="" /></a><p>营养蛋卷</p><span>stephanie715</span></li>
+					</ul>
+				</div>
+				<div class="new_fb" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/hot01.jpg" alt="" /></a><p>葱花饼</p><span>一个拥抱@到永远</span></li>
+						<li><a href="#"><img src="img/hot02.jpg" alt="" /></a><p>南瓜饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot03.jpg" alt="" /></a><p>家常红烧肉</p><span>心语梦境</span></li>
+						<li><a href="#"><img src="img/hot04.jpg" alt="" /></a><p>鲜肉鲜虾馄饨</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot05.jpg" alt="" /></a><p>玉米烙</p><span>？不爱吃糖的糖糖糖？</span></li>
+						<li><a href="#"><img src="img/hot06.jpg" alt="" /></a><p>鱼香肉丝</p><span>仙女小食堂</span></li>
+						<li><a href="#"><img src="img/hot07.jpg" alt="" /></a><p>炸鸡柳</p><span>尖角小荷</span></li>
+						<li><a href="#"><img src="img/hot08.jpg" alt="" /></a><p>滑嫩蒸鸡</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/hot09.jpg" alt="" /></a><p>培根蒸金针菇</p><span>情一诺</span></li>
+						<li><a href="#"><img src="img/hot10.jpg" alt="" /></a><p>西红柿肉末烧豆腐</p><span>悦悦玉食</span></li>
+						<li><a href="#"><img src="img/hot11.jpg" alt="" /></a><p>尖椒土豆丝</p><span>贾府私房菜</span></li>
+						<li><a href="#"><img src="img/hot12.jpg" alt="" /></a><p>豆豉蒸排骨</p><span>遗忘 蕾拉</span></li>
+						<li><a href="#"><img src="img/hot13.jpg" alt="" /></a><p>酱香脆皮炸豆腐</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/hot14.jpg" alt="" /></a><p>酱牛肉</p><span>猫猫家的私厨</span></li>
+						<li><a href="#"><img src="img/hot15.jpg" alt="" /></a><p>家常麻辣豆腐</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/hot16.jpg" alt="" /></a><p>葱油饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot17.jpg" alt="" /></a><p>脆皮鸡翅</p><span>泽瑞妈妈</span></li>
+						<li><a href="#"><img src="img/hot18.jpg" alt="" /></a><p>炸藕盒</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot19.jpg" alt="" /></a><p>啤酒炖鸡腿</p><span>雷小厨</span></li>
+						<li><a href="#"><img src="img/hot20.jpg" alt="" /></a><p>火腿冬瓜羹</p><span>悦悦玉食</span></li>
+					</ul>
+				</div>
+					<div class="recai" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/new01.jpg" alt="" /></a><p>咖啡冰皮月饼</p><span>西山豆角</span></li>
+						<li><a href="#"><img src="img/new02.jpg" alt="" /></a><p>蒜苔炒腊肉</p><span>夏家私享菜</span></li>
+						<li><a href="#"><img src="img/new03.jpg" alt="" /></a><p>中国版玫瑰花水信玄饼</p><span>他的国_ZyQshC</span></li>
+						<li><a href="#"><img src="img/new04.jpg" alt="" /></a><p>香浓诱惑巧克力乳酪月饼</p><span>烘焙123</span></li>
+						<li><a href="#"><img src="img/new05.jpg" alt="" /></a><p>酒糟炖猪蹄</p><span>笑春天下524335751</span></li>
+						<li><a href="#"><img src="img/new06.jpg" alt="" /></a><p>黑米大麦小麦粥</p><span>rosejyy2000</span></li>
+						<li><a href="#"><img src="img/new07.jpg" alt="" /></a><p>巴黎夏拉克</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/new08.jpg" alt="" /></a><p>桃胶黑加仑牛奶西米露</p><span>味谷的养生厨房</span></li>
+						<li><a href="#"><img src="img/new09.jpg" alt="" /></a><p>五彩炒饭</p><span>~梅杰</span></li>
+						<li><a href="#"><img src="img/new10.jpg" alt="" /></a><p>油泼翡翠面</p><span>sunshinewinnie</span></li>
+						<li><a href="#"><img src="img/new11.jpg" alt="" /></a><p>广式蔓越莓豆沙月饼</p><span>飞燕飘舞</span></li>
+						<li><a href="#"><img src="img/new12.jpg" alt="" /></a><p>豆腐煮鸡翅根</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new13.jpg" alt="" /></a><p>长瓜煮螃蟹</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new14.jpg" alt="" /></a><p>胡萝卜木耳炒鸡蛋</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/new15.jpg" alt="" /></a><p>广式莲蓉蛋黄月饼</p><span>食色</span></li>
+						<li><a href="#"><img src="img/new16.jpg" alt="" /></a><p>香菇肉末糯米烧卖</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new17.jpg" alt="" /></a><p>彩椒牛肉</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/new18.jpg" alt="" /></a><p>蛋黄酥（黄油版）</p><span>老方小雨</span></li>
+						<li><a href="#"><img src="img/new19.jpg" alt="" /></a><p>酥脆煎饺</p><span>倩如意</span></li>
+						<li><a href="#"><img src="img/new20.jpg" alt="" /></a><p>营养蛋卷</p><span>stephanie715</span></li>
+					</ul>
+				</div>
+				<div class="liangcai" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/hot01.jpg" alt="" /></a><p>葱花饼</p><span>一个拥抱@到永远</span></li>
+						<li><a href="#"><img src="img/hot02.jpg" alt="" /></a><p>南瓜饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot03.jpg" alt="" /></a><p>家常红烧肉</p><span>心语梦境</span></li>
+						<li><a href="#"><img src="img/hot04.jpg" alt="" /></a><p>鲜肉鲜虾馄饨</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot05.jpg" alt="" /></a><p>玉米烙</p><span>？不爱吃糖的糖糖糖？</span></li>
+						<li><a href="#"><img src="img/hot06.jpg" alt="" /></a><p>鱼香肉丝</p><span>仙女小食堂</span></li>
+						<li><a href="#"><img src="img/hot07.jpg" alt="" /></a><p>炸鸡柳</p><span>尖角小荷</span></li>
+						<li><a href="#"><img src="img/hot08.jpg" alt="" /></a><p>滑嫩蒸鸡</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/hot09.jpg" alt="" /></a><p>培根蒸金针菇</p><span>情一诺</span></li>
+						<li><a href="#"><img src="img/hot10.jpg" alt="" /></a><p>西红柿肉末烧豆腐</p><span>悦悦玉食</span></li>
+						<li><a href="#"><img src="img/hot11.jpg" alt="" /></a><p>尖椒土豆丝</p><span>贾府私房菜</span></li>
+						<li><a href="#"><img src="img/hot12.jpg" alt="" /></a><p>豆豉蒸排骨</p><span>遗忘 蕾拉</span></li>
+						<li><a href="#"><img src="img/hot13.jpg" alt="" /></a><p>酱香脆皮炸豆腐</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/hot14.jpg" alt="" /></a><p>酱牛肉</p><span>猫猫家的私厨</span></li>
+						<li><a href="#"><img src="img/hot15.jpg" alt="" /></a><p>家常麻辣豆腐</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/hot16.jpg" alt="" /></a><p>葱油饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot17.jpg" alt="" /></a><p>脆皮鸡翅</p><span>泽瑞妈妈</span></li>
+						<li><a href="#"><img src="img/hot18.jpg" alt="" /></a><p>炸藕盒</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot19.jpg" alt="" /></a><p>啤酒炖鸡腿</p><span>雷小厨</span></li>
+						<li><a href="#"><img src="img/hot20.jpg" alt="" /></a><p>火腿冬瓜羹</p><span>悦悦玉食</span></li>
+					</ul>
+				</div>
+					<div class="tanggeng" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/new01.jpg" alt="" /></a><p>咖啡冰皮月饼</p><span>西山豆角</span></li>
+						<li><a href="#"><img src="img/new02.jpg" alt="" /></a><p>蒜苔炒腊肉</p><span>夏家私享菜</span></li>
+						<li><a href="#"><img src="img/new03.jpg" alt="" /></a><p>中国版玫瑰花水信玄饼</p><span>他的国_ZyQshC</span></li>
+						<li><a href="#"><img src="img/new04.jpg" alt="" /></a><p>香浓诱惑巧克力乳酪月饼</p><span>烘焙123</span></li>
+						<li><a href="#"><img src="img/new05.jpg" alt="" /></a><p>酒糟炖猪蹄</p><span>笑春天下524335751</span></li>
+						<li><a href="#"><img src="img/new06.jpg" alt="" /></a><p>黑米大麦小麦粥</p><span>rosejyy2000</span></li>
+						<li><a href="#"><img src="img/new07.jpg" alt="" /></a><p>巴黎夏拉克</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/new08.jpg" alt="" /></a><p>桃胶黑加仑牛奶西米露</p><span>味谷的养生厨房</span></li>
+						<li><a href="#"><img src="img/new09.jpg" alt="" /></a><p>五彩炒饭</p><span>~梅杰</span></li>
+						<li><a href="#"><img src="img/new10.jpg" alt="" /></a><p>油泼翡翠面</p><span>sunshinewinnie</span></li>
+						<li><a href="#"><img src="img/new11.jpg" alt="" /></a><p>广式蔓越莓豆沙月饼</p><span>飞燕飘舞</span></li>
+						<li><a href="#"><img src="img/new12.jpg" alt="" /></a><p>豆腐煮鸡翅根</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new13.jpg" alt="" /></a><p>长瓜煮螃蟹</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new14.jpg" alt="" /></a><p>胡萝卜木耳炒鸡蛋</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/new15.jpg" alt="" /></a><p>广式莲蓉蛋黄月饼</p><span>食色</span></li>
+						<li><a href="#"><img src="img/new16.jpg" alt="" /></a><p>香菇肉末糯米烧卖</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new17.jpg" alt="" /></a><p>彩椒牛肉</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/new18.jpg" alt="" /></a><p>蛋黄酥（黄油版）</p><span>老方小雨</span></li>
+						<li><a href="#"><img src="img/new19.jpg" alt="" /></a><p>酥脆煎饺</p><span>倩如意</span></li>
+						<li><a href="#"><img src="img/new20.jpg" alt="" /></a><p>营养蛋卷</p><span>stephanie715</span></li>
+					</ul>
+				</div>
+				<div class="zhushi" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/hot01.jpg" alt="" /></a><p>葱花饼</p><span>一个拥抱@到永远</span></li>
+						<li><a href="#"><img src="img/hot02.jpg" alt="" /></a><p>南瓜饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot03.jpg" alt="" /></a><p>家常红烧肉</p><span>心语梦境</span></li>
+						<li><a href="#"><img src="img/hot04.jpg" alt="" /></a><p>鲜肉鲜虾馄饨</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot05.jpg" alt="" /></a><p>玉米烙</p><span>？不爱吃糖的糖糖糖？</span></li>
+						<li><a href="#"><img src="img/hot06.jpg" alt="" /></a><p>鱼香肉丝</p><span>仙女小食堂</span></li>
+						<li><a href="#"><img src="img/hot07.jpg" alt="" /></a><p>炸鸡柳</p><span>尖角小荷</span></li>
+						<li><a href="#"><img src="img/hot08.jpg" alt="" /></a><p>滑嫩蒸鸡</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/hot09.jpg" alt="" /></a><p>培根蒸金针菇</p><span>情一诺</span></li>
+						<li><a href="#"><img src="img/hot10.jpg" alt="" /></a><p>西红柿肉末烧豆腐</p><span>悦悦玉食</span></li>
+						<li><a href="#"><img src="img/hot11.jpg" alt="" /></a><p>尖椒土豆丝</p><span>贾府私房菜</span></li>
+						<li><a href="#"><img src="img/hot12.jpg" alt="" /></a><p>豆豉蒸排骨</p><span>遗忘 蕾拉</span></li>
+						<li><a href="#"><img src="img/hot13.jpg" alt="" /></a><p>酱香脆皮炸豆腐</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/hot14.jpg" alt="" /></a><p>酱牛肉</p><span>猫猫家的私厨</span></li>
+						<li><a href="#"><img src="img/hot15.jpg" alt="" /></a><p>家常麻辣豆腐</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/hot16.jpg" alt="" /></a><p>葱油饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot17.jpg" alt="" /></a><p>脆皮鸡翅</p><span>泽瑞妈妈</span></li>
+						<li><a href="#"><img src="img/hot18.jpg" alt="" /></a><p>炸藕盒</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot19.jpg" alt="" /></a><p>啤酒炖鸡腿</p><span>雷小厨</span></li>
+						<li><a href="#"><img src="img/hot20.jpg" alt="" /></a><p>火腿冬瓜羹</p><span>悦悦玉食</span></li>
+					</ul>
+				</div>
+					<div class="xiaochi" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/new01.jpg" alt="" /></a><p>咖啡冰皮月饼</p><span>西山豆角</span></li>
+						<li><a href="#"><img src="img/new02.jpg" alt="" /></a><p>蒜苔炒腊肉</p><span>夏家私享菜</span></li>
+						<li><a href="#"><img src="img/new03.jpg" alt="" /></a><p>中国版玫瑰花水信玄饼</p><span>他的国_ZyQshC</span></li>
+						<li><a href="#"><img src="img/new04.jpg" alt="" /></a><p>香浓诱惑巧克力乳酪月饼</p><span>烘焙123</span></li>
+						<li><a href="#"><img src="img/new05.jpg" alt="" /></a><p>酒糟炖猪蹄</p><span>笑春天下524335751</span></li>
+						<li><a href="#"><img src="img/new06.jpg" alt="" /></a><p>黑米大麦小麦粥</p><span>rosejyy2000</span></li>
+						<li><a href="#"><img src="img/new07.jpg" alt="" /></a><p>巴黎夏拉克</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/new08.jpg" alt="" /></a><p>桃胶黑加仑牛奶西米露</p><span>味谷的养生厨房</span></li>
+						<li><a href="#"><img src="img/new09.jpg" alt="" /></a><p>五彩炒饭</p><span>~梅杰</span></li>
+						<li><a href="#"><img src="img/new10.jpg" alt="" /></a><p>油泼翡翠面</p><span>sunshinewinnie</span></li>
+						<li><a href="#"><img src="img/new11.jpg" alt="" /></a><p>广式蔓越莓豆沙月饼</p><span>飞燕飘舞</span></li>
+						<li><a href="#"><img src="img/new12.jpg" alt="" /></a><p>豆腐煮鸡翅根</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new13.jpg" alt="" /></a><p>长瓜煮螃蟹</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new14.jpg" alt="" /></a><p>胡萝卜木耳炒鸡蛋</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/new15.jpg" alt="" /></a><p>广式莲蓉蛋黄月饼</p><span>食色</span></li>
+						<li><a href="#"><img src="img/new16.jpg" alt="" /></a><p>香菇肉末糯米烧卖</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new17.jpg" alt="" /></a><p>彩椒牛肉</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/new18.jpg" alt="" /></a><p>蛋黄酥（黄油版）</p><span>老方小雨</span></li>
+						<li><a href="#"><img src="img/new19.jpg" alt="" /></a><p>酥脆煎饺</p><span>倩如意</span></li>
+						<li><a href="#"><img src="img/new20.jpg" alt="" /></a><p>营养蛋卷</p><span>stephanie715</span></li>
+					</ul>
+				</div>
+				<div class="xican" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/hot01.jpg" alt="" /></a><p>葱花饼</p><span>一个拥抱@到永远</span></li>
+						<li><a href="#"><img src="img/hot02.jpg" alt="" /></a><p>南瓜饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot03.jpg" alt="" /></a><p>家常红烧肉</p><span>心语梦境</span></li>
+						<li><a href="#"><img src="img/hot04.jpg" alt="" /></a><p>鲜肉鲜虾馄饨</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot05.jpg" alt="" /></a><p>玉米烙</p><span>？不爱吃糖的糖糖糖？</span></li>
+						<li><a href="#"><img src="img/hot06.jpg" alt="" /></a><p>鱼香肉丝</p><span>仙女小食堂</span></li>
+						<li><a href="#"><img src="img/hot07.jpg" alt="" /></a><p>炸鸡柳</p><span>尖角小荷</span></li>
+						<li><a href="#"><img src="img/hot08.jpg" alt="" /></a><p>滑嫩蒸鸡</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/hot09.jpg" alt="" /></a><p>培根蒸金针菇</p><span>情一诺</span></li>
+						<li><a href="#"><img src="img/hot10.jpg" alt="" /></a><p>西红柿肉末烧豆腐</p><span>悦悦玉食</span></li>
+						<li><a href="#"><img src="img/hot11.jpg" alt="" /></a><p>尖椒土豆丝</p><span>贾府私房菜</span></li>
+						<li><a href="#"><img src="img/hot12.jpg" alt="" /></a><p>豆豉蒸排骨</p><span>遗忘 蕾拉</span></li>
+						<li><a href="#"><img src="img/hot13.jpg" alt="" /></a><p>酱香脆皮炸豆腐</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/hot14.jpg" alt="" /></a><p>酱牛肉</p><span>猫猫家的私厨</span></li>
+						<li><a href="#"><img src="img/hot15.jpg" alt="" /></a><p>家常麻辣豆腐</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/hot16.jpg" alt="" /></a><p>葱油饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot17.jpg" alt="" /></a><p>脆皮鸡翅</p><span>泽瑞妈妈</span></li>
+						<li><a href="#"><img src="img/hot18.jpg" alt="" /></a><p>炸藕盒</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot19.jpg" alt="" /></a><p>啤酒炖鸡腿</p><span>雷小厨</span></li>
+						<li><a href="#"><img src="img/hot20.jpg" alt="" /></a><p>火腿冬瓜羹</p><span>悦悦玉食</span></li>
+					</ul>
+				</div>
+					<div class="hongbei" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/new01.jpg" alt="" /></a><p>咖啡冰皮月饼</p><span>西山豆角</span></li>
+						<li><a href="#"><img src="img/new02.jpg" alt="" /></a><p>蒜苔炒腊肉</p><span>夏家私享菜</span></li>
+						<li><a href="#"><img src="img/new03.jpg" alt="" /></a><p>中国版玫瑰花水信玄饼</p><span>他的国_ZyQshC</span></li>
+						<li><a href="#"><img src="img/new04.jpg" alt="" /></a><p>香浓诱惑巧克力乳酪月饼</p><span>烘焙123</span></li>
+						<li><a href="#"><img src="img/new05.jpg" alt="" /></a><p>酒糟炖猪蹄</p><span>笑春天下524335751</span></li>
+						<li><a href="#"><img src="img/new06.jpg" alt="" /></a><p>黑米大麦小麦粥</p><span>rosejyy2000</span></li>
+						<li><a href="#"><img src="img/new07.jpg" alt="" /></a><p>巴黎夏拉克</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/new08.jpg" alt="" /></a><p>桃胶黑加仑牛奶西米露</p><span>味谷的养生厨房</span></li>
+						<li><a href="#"><img src="img/new09.jpg" alt="" /></a><p>五彩炒饭</p><span>~梅杰</span></li>
+						<li><a href="#"><img src="img/new10.jpg" alt="" /></a><p>油泼翡翠面</p><span>sunshinewinnie</span></li>
+						<li><a href="#"><img src="img/new11.jpg" alt="" /></a><p>广式蔓越莓豆沙月饼</p><span>飞燕飘舞</span></li>
+						<li><a href="#"><img src="img/new12.jpg" alt="" /></a><p>豆腐煮鸡翅根</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new13.jpg" alt="" /></a><p>长瓜煮螃蟹</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new14.jpg" alt="" /></a><p>胡萝卜木耳炒鸡蛋</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/new15.jpg" alt="" /></a><p>广式莲蓉蛋黄月饼</p><span>食色</span></li>
+						<li><a href="#"><img src="img/new16.jpg" alt="" /></a><p>香菇肉末糯米烧卖</p><span>花鱼儿</span></li>
+						<li><a href="#"><img src="img/new17.jpg" alt="" /></a><p>彩椒牛肉</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/new18.jpg" alt="" /></a><p>蛋黄酥（黄油版）</p><span>老方小雨</span></li>
+						<li><a href="#"><img src="img/new19.jpg" alt="" /></a><p>酥脆煎饺</p><span>倩如意</span></li>
+						<li><a href="#"><img src="img/new20.jpg" alt="" /></a><p>营养蛋卷</p><span>stephanie715</span></li>
+					</ul>
+				</div>
+				<div class="madeself" >
+					<ul class="uls">
+						<li><a href="#"><img src="img/hot01.jpg" alt="" /></a><p>葱花饼</p><span>一个拥抱@到永远</span></li>
+						<li><a href="#"><img src="img/hot02.jpg" alt="" /></a><p>南瓜饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot03.jpg" alt="" /></a><p>家常红烧肉</p><span>心语梦境</span></li>
+						<li><a href="#"><img src="img/hot04.jpg" alt="" /></a><p>鲜肉鲜虾馄饨</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot05.jpg" alt="" /></a><p>玉米烙</p><span>？不爱吃糖的糖糖糖？</span></li>
+						<li><a href="#"><img src="img/hot06.jpg" alt="" /></a><p>鱼香肉丝</p><span>仙女小食堂</span></li>
+						<li><a href="#"><img src="img/hot07.jpg" alt="" /></a><p>炸鸡柳</p><span>尖角小荷</span></li>
+						<li><a href="#"><img src="img/hot08.jpg" alt="" /></a><p>滑嫩蒸鸡</p><span>梦~桃缘</span></li>
+						<li><a href="#"><img src="img/hot09.jpg" alt="" /></a><p>培根蒸金针菇</p><span>情一诺</span></li>
+						<li><a href="#"><img src="img/hot10.jpg" alt="" /></a><p>西红柿肉末烧豆腐</p><span>悦悦玉食</span></li>
+						<li><a href="#"><img src="img/hot11.jpg" alt="" /></a><p>尖椒土豆丝</p><span>贾府私房菜</span></li>
+						<li><a href="#"><img src="img/hot12.jpg" alt="" /></a><p>豆豉蒸排骨</p><span>遗忘 蕾拉</span></li>
+						<li><a href="#"><img src="img/hot13.jpg" alt="" /></a><p>酱香脆皮炸豆腐</p><span>寒飘</span></li>
+						<li><a href="#"><img src="img/hot14.jpg" alt="" /></a><p>酱牛肉</p><span>猫猫家的私厨</span></li>
+						<li><a href="#"><img src="img/hot15.jpg" alt="" /></a><p>家常麻辣豆腐</p><span>FC美食煮意</span></li>
+						<li><a href="#"><img src="img/hot16.jpg" alt="" /></a><p>葱油饼</p><span>蔬菜沙拉</span></li>
+						<li><a href="#"><img src="img/hot17.jpg" alt="" /></a><p>脆皮鸡翅</p><span>泽瑞妈妈</span></li>
+						<li><a href="#"><img src="img/hot18.jpg" alt="" /></a><p>炸藕盒</p><span>暖夫生活</span></li>
+						<li><a href="#"><img src="img/hot19.jpg" alt="" /></a><p>啤酒炖鸡腿</p><span>雷小厨</span></li>
+						<li><a href="#"><img src="img/hot20.jpg" alt="" /></a><p>火腿冬瓜羹</p><span>悦悦玉食</span></li>
+					</ul>
+				</div>
+			</div>
+			<!--  查看更多 -->
+			<p class="more">查看更多</p>
+			<!-- 底部  -->
+		<div class="bottom">
+			<div class="bottom_left">
+				<a href="#" class="small_title">美食天下 - 让吃更美好!</a>
+				<ul class="list2">
+					<li>
+						<a href="#">认识美天</a>
+						<a href="#">在美天工作</a>
+						<a href="#">广告与合作</a>
+						<a href="#">版权与免费</a>
+						<a href="#">帮助中心</a>
+						<a href="#">网站地图</a>
+						<a href="#">移动应用</a>
+					</li>
+				</ul>
+				<p>&copy; 2004-2016 美食天下 保留所有权利 - 京ICP证090244号</p>
+			</div>
+			<div class="weixin">
+				<img src="img/weixin_727.png" />
+				<span>微信公众号</span>
+			</div>
+			<div class="erweima">
+				<img src="img/msc_app.png" />
+				<span>手机客户端</span>
+			</div>
+			<img src="img/gotop.png" class="scroll"/>
+		</div>
+	</body>
+</html>

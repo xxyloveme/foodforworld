@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<!--<script src="js/jquery-3.0.0.js"></script>-->
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/register.js"></script>
+	</head>
+	<body>
+		<!--  导航栏  -->
+		<div id="nav" class="nav">
+			<ul class="nav_left">
+				<li><a href="index.html"><i></i>首页</a></li>
+				<li><a href="cookbook.html">菜谱</a></li>
+				<li><a href="#">食材</a></li>
+				<li><a href="#">珍选</a></li>
+				<li><a href="#">健康</a></li>
+				<li><a href="#">专题</a></li>
+				<li><a href="#">社区</a></li>
+				<li><a href="#">话题</a></li>
+				<li><a href="#">活动</a></li>
+				<li><a href="#">搜索</a></li>
+				<li class="nav_more">
+					<span></span>
+					<ul>
+						<li><a href="#">烘焙</a></li>
+						<li><a href="#">妈妈派</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div class="nav_right">
+				<ul>
+					<li class="change"><a href="register.html">注册</a></li>
+					<li class="change"><a href="login.html">登录</a></li>
+					<li class="nav_span nav_span1 change">
+						<a href="#">
+							<img src="img/nir1.png"  width="18px" height="18px"/>QQ登录
+						</a>
+						<ul class="nav_login">
+							<li class="nav_login1"><a href="#"><img src="img/nir2.png" width="18px" height="18px"/>微博登录</a></li>
+							<li class="nav_login2"><a href="#"><img src="img/nir3.png"  width="18px" height="18px"/>微信登录</a></li>
+						</ul>
+					</li>
+					<li class="nav_span nav_span2">
+						<a href="#">
+							<img src="img/nr1.png"  width="18px" height="18px"/>
+							发布
+						</a>
+						<ul>
+							<li class="fabu1"><a href="#">发菜谱</a></li>
+							<li class="fabu2"><a href="#">发话题</a></li>
+							<li class="fabu3"><a href="#">发日志</a></li>
+						</ul>
+					</li>
+					<li class="nav_span nav_span3">
+						<a href="#">
+							<img src="img/nr2.png"  width="18px" height="18px"/>
+							签到有礼
+						</a>
+					</li>
+					<li class="nav_span nav_span4">
+						<a href="#">
+							<img src="img/nr3.png"  width="18px" height="18px"/>
+							客户端
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--  背景图轮播   -->
+		<div class="box">
+			<img src="img/bg1.jpg"/>
+			<img src="img/bg2.jpg"/>
+			<img src="img/bg3.jpg"/>
+			<img src="img/bg4.jpg"/>
+		</div>
+		<!--注册盒子部分-->
+		<div class="bg-black"></div>
+		<div class="register">
+			<div class="register_head">
+				<a href="register.html" class="on">注册</a>
+				<a href="login.html" >登录</a>
+			</div>
+			<div class="register_main">
+				<!--<div class="main-left">
+					<p>欢迎使用第三账号注册/登录美食天下</p>
+					<div>
+						<a href="#"><img src="img/nir1.png" alt="" /><span>QQ</span></a>
+						<a href="#" class="center"><img src="img/nir2.png" alt="" /><span>微信</span></a>
+						<a href="#"><img src="img/nir3.png" alt="" /><span>微博</span></a>
+					</div>
+					
+				</div>
+				<div class="main-right">
+					<img src="img/app.png" class="app"/>
+					<p>扫描二维码下载客户端</p>	
+				</div>-->
+				<form>
+					<ul>
+						<li>
+							<label>用 户 名:</label>
+							<input type="text" name="username" class="uname" placeholder="您的账户名和登录名"/>
+						</li>
+						<p>支持中文、字母、数字的组合，3-20个字符</p>
+						<li>
+							<label>设 置 密 码:</label>
+							<input type="password" name="password" class="pwd" placeholder="建议至少使用两种字符组合"/>
+						</li>
+						<p>建议使用字母、数字和符号两种及以上的组合，6-20个字符</p>
+						<li>
+							<label>确 认 密 码:</label>
+							<input type="password"  class="pwd2" placeholder="请再次输入密码"/>
+						</li>
+						<p>请再次输入密码</p>
+						<li>
+							<label>手 机 号:</label>
+							<input type="text"  class="tel" placeholder="请输入您的手机号"/>
+						</li>
+						<p>完成验证后，可以使用该手机登录和找回密码</p>
+						<li class="last">	
+							<label>验 证 码:</label>
+							<input type="text" class="yzm" placeholder="请输入验证码"/>
+							<span class="get">获取验证码<span>
+						</li>
+						<p>请输入验证码</p>
+					</ul>
+					<input type="button" value="注册"	class="register-btn" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,751 @@
+
+/*  logo 部分*/
+.logo{
+	width: 990px;
+	height: 65px;
+	padding-top: 50px;
+	margin: auto;
+}
+.logo .logo_left{
+	float: left;
+	width: 108px;
+	background: url(http://static.meishichina.com/v6/img/lib/logo.png) no-repeat scroll left center/108px auto
+}
+.logo .logo_left a{
+	display: block;
+	height: 60px;
+	/*background: url(../img/top-bar110.png) no-repeat;*/
+}
+
+.logo_right{
+	float: right;
+	padding-top:18.5px ;
+}
+.logo_right .text{
+	width: 166px;
+	border: 1px solid #ccc;
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	outline: 0;
+}
+.logo_right .search{
+	border: none;
+	width: 80px;
+	height: 28px;
+	border-radius:0 3px 3px 0 ;
+	font-size: 14px;
+	line-height: 28px;
+	color: white;
+	text-indent: 25px;
+	float: right;
+	background: #999 url(http://static.meishichina.com/v6/img/lib/search.png) no-repeat scroll 12px center/16px auto;
+}
+.logo_center{
+	float: right;
+	height: 60px;
+	padding-right: 40px;
+}
+.logo ul li {
+	float: left;
+}
+.logo ul li a{
+	line-height: 60px;
+	font-size: 20px;
+	float: left;
+	padding: 0 10px 5px;
+	color: #333;
+}
+.logo ul li .index{
+	color: #ff6767;
+}
+.logo ul li a:hover{
+	color: #ff6767;
+}
+/*  主体部分  */
+#main{
+	width: 990px;
+	margin: 0 auto;
+	padding: 10px 0;
+	overflow: hidden;
+}
+/*  轮播图部分*/
+.bg{
+	height: 360px;
+	position: relative;
+}
+.bg_bottom{
+	width:990px;
+	overflow: hidden;
+}
+.bg_bottom ul {
+	width:990px;
+}
+.bg_bottom ul li{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.bg_top{
+	width: 220px;
+	height: 330px;
+	padding: 30px 0 0;
+	position: absolute;
+	z-index: 2;
+	top:0;
+	left: 0;
+	background: rgba(68,68,68,0.4);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#88686868,endcolorstr=#88686868);*/
+}
+.bg_top>ul>li>a{
+	display: block;
+	height: 20px;
+	color: white;
+	line-height: 20px;
+	padding: 20px 0;
+}
+.bg_top>ul>li>a i{
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 20px;
+	float: left;
+	background-size: 140px 20px;
+}
+.bg_top ul li a b{
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 20px;
+	float: right;
+	background-size: 140px 20px;
+	background-image: url(../img/icon.png) ;
+	background-position:40px 0 ;
+}
+.i1{
+	background: url(../img/icon.png) 0 0;
+}
+.i2{
+	background: url(../img/icon.png) -20px 0;
+}
+.i3{
+	background: url(../img/icon.png) 20px 0;
+}
+.i4{
+	background: url(../img/icon.png) 80px 0;
+}
+.i5{
+	background: url(../img/icon.png) 60px 0;
+}
+.bg_top>ul>li ul{
+	position: absolute;
+	width: 390px;
+	height: 338px;
+	top:0;
+	left: 219px;
+	background: white;
+	padding: 22px 50px 0;
+	color: black;
+	display: none;
+}
+.bg_top>ul>li ul li a{
+	width: 130px;
+	height: 70px;
+	font-size: 12px;
+	color: #999;
+	float: left;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+.bg_top>ul>li ul li a span{
+	font-size: 18px;
+	width: 130px;
+	color: #333;
+	display: block;
+	line-height: 35px;
+	
+}
+.bg_top>ul>li ul li .pic{
+	margin:60px 60px 0 0;
+}
+.bg_top>ul>li ul li .pic1{
+	margin: 0 100px;
+}
+.bg_top>ul>li ul li .pic2{
+	width: 100%;
+	margin-top:100px ;
+}
+.bg #left,.bg #right{
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 60px;
+	color: #999;
+	z-index: 2;
+	font-size: 40px;
+	top:150px;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+	/*background: rgba(0,0,0,0.4);*/
+	
+}
+#left{
+	left: 220px;
+}
+#right{
+	right: 0;
+}
+.bg .list{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.bg .list li{
+	float: left;
+	margin:0 8px;
+	width: 4px;
+	height: 4px;
+	border: 3px solid #999;
+	border-radius: 50%;
+}
+.bg .list .border{
+	border: 3px solid #ff5757;
+}
+
+/*轮播内容部分*/
+.content{
+	width: 990px;
+	height: 90px;
+	margin: 10px auto 0;
+	padding: 15px 0;
+	position: relative;
+	background: #f8f8f8;
+	
+	
+}
+.content .content_div{
+	width: 910px;
+	height: 90px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content ul{
+	width:5940px ;
+	position: relative;
+}
+.content ul li{
+	float: left;
+	width: 284px;
+	margin: 0 10px;
+	line-height: 1.5;
+	
+}
+.content ul li a{
+	display: block;
+	font-size: 20px;
+	color: #333;
+}
+.content ul li a:hover{
+	color: #ff5757;
+	text-decoration: underline;
+}
+.content ul li span{
+	font-size: 12px;
+	color: #999;
+}
+.content ul li p{
+	font-size: 12px;
+	color: #333;
+}
+.content .left,.content .right{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	top: 45px;
+	color: #333;
+	font-size: 20px;
+	text-align:center;
+	line-height: 30px;
+	display: none;
+	cursor: pointer;
+}
+.content .left{
+	left: 5px;
+}
+.content .right{
+	
+	right: 5px;
+}
+.content .bg_content{
+	background: #999;
+	color: #fff;
+}
+/* 信息部分 */
+.messages{
+	width: 990px;
+	height: 386px;
+	margin: 20px auto 0;
+}
+.messages .messages_left,.messages .messages_center,.messages .messages_right{
+	width: 310px;
+	float: left;
+}
+.messages .messages_center{
+	margin: 0 30px;
+}
+.messages .messages_left_head,.messages .messages_center_head,.messages .messages_right_head{
+	height: 35px;
+	border-bottom: 1px solid #e8e8e8;
+}
+.messages img{
+	width: 310px;
+	height: 124px;
+	margin-top: 10px;
+}
+.messages .title{
+	font-size: 20px;
+	display: inline-block;
+	height: 30px;
+	color: #333;
+	margin-right: 20px;
+	line-height: 30px;
+	padding-bottom: 4px;
+	
+}
+.messages .others{
+	float: right;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #000;
+}
+.messages .on{
+	color: #FF5757;
+	border-bottom: 3px solid #FF5757;
+}
+.messages span{
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #ccc;
+	border-radius: 50%;
+	margin: 0 8px;
+}
+.messages .health ul li,.messages .hongbei ul li,.messages .for_you ul li{
+	font-size: 16px;
+	padding: 10px 0 0;
+	line-height: 26px;
+}
+.messages .health ul li a,.messages .hongbei ul li a,.messages .for_you ul li a{
+	color: #333;
+}
+.messages .shipu ul,.messages .eat_health ul{
+	width: 327px;
+	display: none;
+}
+.messages .shipu ul li a,.messages .eat_health ul li a{
+	height: 40px;
+	width: 90px;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 10px 17px 5px 0;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	float: left;
+	color: #333;
+}
+.messages .shipu ul li .on1,.messages .eat_health ul li .on1{
+	color: #FF5757;
+	border: 1px solid #FF5757;
+}
+/*  美食部分 */
+.food{
+	width: 990px;
+	margin: 40px auto 0;
+	position: relative;
+	overflow: hidden;
+}
+.food img{
+	width: 230px;
+	height: 230px;
+	display: block;
+}
+.food img:hover{
+	transition: all 1s;
+	transform: scale(1.2);
+}
+.food .food_head{
+	height: 35px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.food .food_head>a{
+	font-size: 20px;
+	display: inline-block;
+	height: 30px;
+	color: #666;
+	margin-right: 20px;
+	line-height: 30px;
+	padding-bottom: 4px;
+	font-weight: 500;
+}
+.food .food_head .on2{
+	color: #FF5757;
+	border-bottom: 3px solid #FF5757;
+}
+.food .food_head ul {
+	float: right;
+}
+.food .food_head ul li{
+	float: left;
+	margin: 5px 8px;
+}
+.food .food_head ul li a{
+	color: #333;
+}
+.food .food_head ul li a:hover{
+	color: #FF5757;
+}
+.uls{
+	margin-top:10px ;
+	width: 1040px;
+}
+.food .first{
+	display: block;
+}
+.uls{
+	display: none;
+}
+.uls li{
+	float: left;
+	width: 230px;
+	height: 305px;
+	margin: 0 23px 0 0;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.uls li a{
+	display: block;
+	width: 230px;
+	height: 230px;
+	overflow: hidden;
+}
+.uls li span{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+} 
+.uls li p{
+	line-height: 2;
+	color: #333;
+}
+
+/*食材部分*/
+.shicai{
+	width: 990px;
+	margin: 20px auto 0;
+	overflow:hidden;
+}
+.shicai .shicai_head{
+	height: 35px;
+	border-bottom: 1px solid #e1e1e1;
+	position: relative;
+}
+.shicai .shicai_head>a{
+	font-size: 20px;
+	display: inline-block;
+	height: 30px;
+	color: #666;
+	margin-right: 20px;
+	line-height: 30px;
+	padding-bottom: 4px;
+	font-weight: 500;
+}
+.shicai .shicai_head .on3{
+	color: #FF5757;
+	border-bottom: 3px solid #FF5757;
+}
+.shicai .shicai_head ul {
+	float: right;
+}
+.shicai .shicai_head ul li{
+	float: left;
+	margin: 5px 8px;
+}
+.shicai .shicai_head ul li a{
+	color: #333;
+}
+.shicai .shicai_head ul li a:hover{
+	color: #FF5757;
+}
+.shicai .shicai_main ul{
+	margin-top:10px ;
+	width: 1011px;
+	
+}
+.shicai .shicai_main ul li{
+	float: left;
+	width: 126px;
+	margin: 10px 18px 0 0;
+	text-align: center;
+}
+.shicai .shicai_main ul li a{
+	color: #333;
+	line-height: 1.5;
+}
+.shicai .shicai_main ul li a:hover{
+	color: #FF5757;
+	text-decoration: underline;
+}
+.shicai img{
+	width: 126px;
+	height: 126px;
+	display: block;
+}
+.shicai .shicai_main ul li span{
+	display: block;
+	color: #999;
+	font-size: 12px;
+	text-align: center;
+	line-height: 2;
+}
+
+/*话题部分*/
+.discuss{
+	width: 990px;
+	margin: 40px auto 0;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #e1e1e1;
+}
+.discuss img{
+	width: 230px;
+	height: 173px;
+	display: block;
+}
+.discuss img:hover{
+	transition: all 1s;
+	transform: scale(1.2);
+}
+.discuss .discuss_title{
+	height: 35px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.discuss .discuss_title>a{
+	font-size: 20px;
+	display: inline-block;
+	height: 30px;
+	color: #666;
+	margin-right: 20px;
+	line-height: 30px;
+	padding-bottom: 4px;
+	font-weight: 500;
+}
+.discuss .discuss_title .on4{
+	color: #FF5757;
+	border-bottom: 3px solid #FF5757;
+}
+.discuss .discuss_title ul {
+	float: right;
+}
+.discuss .discuss_title ul li{
+	float: left;
+	margin: 5px 8px;
+}
+.discuss .discuss_title ul li a{
+	color: #333;
+}
+.discuss .discuss_title ul li a:hover{
+	color: #FF5757;
+}
+.discuss .discuss_div .rizhi{
+	margin-top:10px ;
+	width: 1040px;	
+	display: none;
+}
+.discuss .discuss_div .rizhi li{
+	float: left;
+	width: 230px;
+	height: 248px;
+	margin: 0 23px 0 0;
+	text-align: center;
+	
+}
+.discuss .discuss_div .rizhi li a{
+	display: block;
+	width: 230px;
+	height: 173px;
+	overflow: hidden;
+}
+.discuss .discuss_div .rizhi li span{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+} 
+.discuss .discuss_div .rizhi li p{
+	line-height: 2;
+	color: #333;
+	cursor: pointer;
+}
+/*json 数据部分*/
+.discuss .hot_discuss li{
+	width: 460px;
+	height: 225px;
+	padding: 10px 0;
+	float: left;
+	overflow: hidden;
+	margin-right: 35px;
+}
+.discuss .hot_discuss li .u{
+	height: 40px;
+}
+.discuss .hot_discuss li .u img{
+	width: 40px;
+	height:40px;
+	float: left;
+	margin: 0 10px 0 0;
+	border-radius: 50%;
+}
+.discuss .hot_discuss li .u .name{
+	float: left;
+	width: 80%;
+}
+.discuss .hot_discuss li .u .name a{
+	display: block;
+	float: left;
+	color: #111;
+	font-size: 14px;
+}
+.discuss .hot_discuss li .u .name a:hover{
+	text-decoration: underline;
+}
+.discuss .hot_discuss li .u .name span{
+	font-size: 10px;
+	color: #666;
+	clear: both;
+	line-height: 2;
+	float: left;
+}
+.discuss .hot_discuss li .c{
+	padding: 5px 0 0 0;
+	
+}
+.discuss .hot_discuss li .c .p_title a{
+	color: #555;
+	font-size: 14px;
+}
+.discuss .hot_discuss li .c .p_title a:hover{
+	text-decoration: underline;
+}
+.discuss .hot_discuss li .c .p_title strong{
+	display: block;
+}
+.discuss .hot_discuss li .c .clear{
+	padding: 10px 0 0;
+	float: left;
+	position: relative;
+	
+}
+.discuss .hot_discuss li .c .clear img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+/*  底部  */
+.bottom{
+	width: 990px;
+	margin: 5px auto 0;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.bottom_left{
+	width: 770px;
+	float: left;
+}
+.bottom_left .small_title{
+	color: #f50;
+	display: block;
+	margin-bottom:6px;
+	font-size: 14px;
+}
+.bottom_left .small_title:hover{
+	text-decoration: underline;
+}
+.bottom_left ul li a{
+	color: #666;
+	font-size: 12px;
+	font-weight: 400;
+}
+.bottom_left ul li a:hover{
+	color: #ff5757;
+	text-decoration: underline;
+}
+.bottom_left .list1{
+	margin-top: 31px;
+}
+.bottom_left .list1 li{
+	padding-right:12px;
+	float: left;
+}
+.bottom_left .list1 li span{
+	font-size: 14px;
+	font-weight: 600;
+	color: #444;
+}
+.bottom_left .list2 li a{
+	padding-right: 5px;
+}
+.erweima{
+	margin-right: 25px;
+}
+.erweima,.weixin{
+	float: right;
+	width: 82px;
+	text-align: center;
+	margin-top:15px;
+	font-size: 12px;
+}
+.erweima img,.weixin img{
+	width: 82px;
+	height: 82px;
+}
+.bottom p{
+	float: left;
+	font-size: 12px;
+	height: 60px;
+	line-height: 60px;
+	color: #666;
+}
+.bottom p a{
+	font-size: 12px;
+	color: #666;
+}
+.bottom p a:hover{
+	color: #F50;
+	text-decoration: underline;
+}
+.bottom p img{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+}
+.bottom .last img{
+	float: right;
+	width: 64px;
+	height: 23px;
+	margin-top: 20px;
+}
+.bottom .scroll{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	right:60px;
+	bottom: 20px;
+	display: none;
+}
